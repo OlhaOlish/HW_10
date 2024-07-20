@@ -1,0 +1,49 @@
+    1  cd Desktop/Projects/
+    2  ls
+    3  pwd
+    4  git config user.name 'OlhaOlish'
+    5  git
+    6  git clone https://github.com/OlhaOlish/HW_10.git
+    7  ls
+    8  cd HW_10/
+    9  git config user.name 'OlhaOlish'
+   10  git config user.email 'olishevskaolga@gmail.com'
+   11  touch text_ignore.txt
+   12  ls
+   13  touch .gitignore
+   14  vim .gitignore 
+   15  git status
+   16  git branch
+   17  git add .
+   18  git commit -m "Updated .gitignore"
+   19  touch main_test.txt
+   20  git statis
+   21  git status 
+   22  git add .
+   23  git status 
+   24  git commit -m "Added a new file main_test.txt"
+   25  git branch 
+   26  git checkout develop
+   27  git checkout develop
+   28  git branch develop
+   29  git branch 
+   30  git checkout develop 
+   31  touch develop.txt
+   32  mv develop.txt develop_test.txt 
+   33  ls
+   34  git add .
+   35  git commit -m "Added a new file develop_test.txt"
+   36  vim develop_test.txt 
+   37  vim develop_test.txt 
+   38  vim develop_test.txt 
+   39  echo develop_test.txt 
+   40  git status 
+   41  git add .
+   42  git commit -m "Changed file develop_test.txt"
+   43  git checkout main 
+   44  git merge develop 
+   45  git status
+   46  ls
+   47  git log
+   48  history
+   49  history > command_list.csv
